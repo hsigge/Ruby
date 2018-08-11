@@ -8,20 +8,20 @@ class Dog
     end
     
     def wag_tail
-        puts "wags tail"
+        puts "The #{breed} wags it's tail"
     end
 
     def bark
-        puts "barks"
+        puts "The #{sex} barks"
     end
 
     def eat
-        puts "eats kibble"
+        puts "#{name} eats kibble"
     end
 
 end
 
-dog = Dog.new("softis", "Trixie", "bitch")
+dog = Dog.new("labrador", "Trixie", "bitch")
 
 dog.wag_tail
 dog.bark
