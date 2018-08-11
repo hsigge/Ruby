@@ -5,6 +5,7 @@ movies = Array.new
     movie_4 = {name: "Two doggies", year: "2014", genre: "romantic"}
     movie_5 = {name: "The orphaned beast", year: "2018", genre: "drama"}
     movies = [movie_1, movie_2, movie_3, movie_4, movie_5]
+    
 movies.each do |movie|
-puts "#{movie[:year]}"
+    puts "#{movie[:year]}"
 end
