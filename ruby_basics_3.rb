@@ -1,3 +1,4 @@
+#list of years with array
 movies = Array.new
     movie_1 = {name: "The rabid dog", year: "2008", genre: "horror"}
     movie_2 = {name: "The little schnauzer", year: "2012", genre: "comedy"}
