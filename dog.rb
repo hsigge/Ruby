@@ -8,15 +8,15 @@ class Dog
     end
     
     def wag_tail
-        puts "The #{breed} wags it's tail"
+        print "The #{breed} wags it's tail."
     end
 
     def bark
-        puts "The #{sex} barks"
+        print "The #{sex} barks."
     end
 
     def eat
-        puts "#{name} eats kibble"
+        print "#{name} eats kibble."
     end
 
 end
